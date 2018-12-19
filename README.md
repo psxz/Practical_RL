@@ -15,7 +15,7 @@ Taught on-campus at [HSE](https://cs.hse.ru) and [YSDA](https://yandexdataschool
 * Online student __[survival guide](https://github.com/yandexdataschool/Practical_RL/wiki/Online-student's-survival-guide)__
 * Installing the libraries - [guide and issues thread](https://github.com/yandexdataschool/Practical_RL/issues/1)
 * Magical button that launches you into course environment: 
-    * [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/yandexdataschool/Practical_RL/master) - comes will all libraries pre-installed. May be down time to time.
+    * [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/yandexdataschool/Practical_RL/master) - comes with all libraries pre-installed. May be down time to time.
     * If it's down, try [__google colab__](https://colab.research.google.com/) or [__azure notebooks__](http://notebooks.azure.com/). Those last longer, but they will require you to run installer commands (see ./Dockerfile).
 * Anonymous [feedback form](https://docs.google.com/forms/d/e/1FAIpQLSdurWw97Sm9xCyYwC8g3iB5EibITnoPJW2IkOVQYE_kcXPh6Q/viewform) for everything that didn't go through e-mail.
 * [About the course](https://github.com/yandexdataschool/Practical_RL/wiki/Practical-RL)
@@ -33,15 +33,15 @@ The syllabus is approximate: the lectures may occur in a slightly different orde
   * Lecture: RL problems around us. Decision processes. Stochastic optimization, Crossentropy method. Parameter space search vs action space search.
   * Seminar: Welcome into openai gym. Tabular CEM for Taxi-v0, deep CEM for box2d environments.
   * Homework description - see week1/README.md. 
-  * ** YSDA Deadline: 2018.02.26 23.59**
-  * ** HSE Deadline: 2018.01.28 23:59**
+  * **YSDA Deadline: 2018.02.26 23.59**
+  * **HSE Deadline: 2018.01.28 23:59**
   
 * [__week2__](https://github.com/yandexdataschool/Practical_RL/tree/master/week2_value_based) Value-based methods
   * Lecture: Discounted reward MDP. Value-based approach. Value iteration. Policy iteration. Discounted reward fails.
   * Seminar: Value iteration.  
   * Homework description - see week2/README.md. 
-  * ** HSE Deadline: 2018.02.11 23:59**
-  * ** YSDA Deadline: part1 2018.03.05 23.59, part2 2018.03.12 23.59**
+  * **HSE Deadline: 2018.02.11 23:59**
+  * **YSDA Deadline: part1 2018.03.05 23.59, part2 2018.03.12 23.59**
   
 
 * [__week3__](https://github.com/yandexdataschool/Practical_RL/tree/master/week3_model_free) Model-free reinforcement learning
@@ -49,7 +49,7 @@ The syllabus is approximate: the lectures may occur in a slightly different orde
   * Seminar: Qlearning Vs SARSA Vs Expected Value SARSA
   * Homework description - see week3/README.md. 
   * **HSE Deadline: 2018.02.15 23:59**
-  * ** YSDA Deadline: 2018.03.12 23.59**
+  * **YSDA Deadline: 2018.03.12 23.59**
      
 * [__week4_recap__](https://github.com/yandexdataschool/Practical_RL/tree/master/week4_%5Brecap%5D_deep_learning) - deep learning recap 
   * Lecture: Deep learning 101
@@ -59,13 +59,13 @@ The syllabus is approximate: the lectures may occur in a slightly different orde
   * Lecture: Infinite/continuous state space. Value function approximation. Convergence conditions. Multiple agents trick; experience replay, target networks, double/dueling/bootstrap DQN, etc.
   * Seminar:  Approximate Q-learning with experience replay. (CartPole, Atari)
   * **HSE Deadline: 2018.03.04 23:30**
-  * ** YSDA Deadline: 2018.03.20 23.30**
+  * **YSDA Deadline: 2018.03.20 23.30**
 
 * [__week5__](https://github.com/yandexdataschool/Practical_RL/tree/master/week5_explore) Exploration in reinforcement learning
   * Lecture: Contextual bandits. Thompson Sampling, UCB, bayesian UCB. Exploration in model-based RL, MCTS. "Deep" heuristics for exploration.
   * Seminar: bayesian exploration for contextual bandits. UCB for MCTS.
   
-  * ** YSDA Deadline: 2018.03.30 23.30**
+  * **YSDA Deadline: 2018.03.30 23.30**
 
 * [__week6__](https://github.com/yandexdataschool/Practical_RL/tree/master/week6_policy_based) Policy gradient methods I
   * Lecture: Motivation for policy-based, policy gradient, logderivative trick, REINFORCE/crossentropy method, variance reduction(baseline), advantage actor-critic (incl. GAE)
@@ -102,7 +102,7 @@ Course materials and teaching by: _[unordered]_
 # Contributions
 * Using pictures from [Berkeley AI course](http://ai.berkeley.edu/home.html)
 * Massively refering to [CS294](http://rll.berkeley.edu/deeprlcourse/)
-* Sevaral tensorflow assignments by [Scitator](https://github.com/Scitator)
+* Several tensorflow assignments by [Scitator](https://github.com/Scitator)
 * A lot of fixes from [arogozhnikov](https://github.com/arogozhnikov)
-* Other awesome people: see github contributors
+* Other awesome people: see github [contributors](https://github.com/yandexdataschool/Practical_RL/graphs/contributors)
 
